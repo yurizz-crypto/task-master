@@ -36,3 +36,17 @@ Completed Tasks Page:
 
 Profile Page:
 ![TaskMaster Dashboard](screenshots/prof.png)
+
+## Educational Concepts Demonstrated
+1. Component-Based Architecture
+The project uses Blade Components. Instead of repeating the HTML head and navigation on every page, the app wraps content in <x-layout> or <x-sidebar> tags, making the code DRY (Don't Repeat Yourself).
+
+2. Authentication Flow
+The AuthController demonstrates:
+
+Validation: Ensuring unique emails and minimum password lengths.
+Hashing: Using Hash::make to never store plain-text passwords.
+Sessions: Persisting user data across different pages.
+
+3. Database Relationships
+The app structures data so that tasks are associated with specific users, ensuring that your dashboard only shows your tasks.
