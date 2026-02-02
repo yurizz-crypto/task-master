@@ -45,7 +45,9 @@ The project uses Blade Components. Instead of repeating the HTML head and naviga
 The AuthController demonstrates:
 
 Validation: Ensuring unique emails and minimum password lengths.
+
 Hashing: Using Hash::make to never store plain-text passwords.
+
 Sessions: Persisting user data across different pages.
 
 3. Database Relationships
